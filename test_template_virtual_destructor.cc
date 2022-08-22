@@ -1,4 +1,4 @@
-// test_template_virtual_destructor.cc
+﻿// test_template_virtual_destructor.cc
 #include <functional>
 #include <map>
 #include <memory>
@@ -110,7 +110,7 @@ public:
 };
 
 
-int main()
+int main_2()
 {
     TestSon t1;
     TestSon *t2 = new TestSon;

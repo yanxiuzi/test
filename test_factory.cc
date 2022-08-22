@@ -1,4 +1,4 @@
-#include "design_pattern.h"
+﻿#include "design_pattern.h"
 
 #include <iostream>
 
@@ -57,8 +57,8 @@ class TESLA : public Car
         info_.mileage_km = 536;
         info_.max_torque_Nm = 440;
         info_.max_speed_kmph = 262;
-        info_.acceleration_100km_sec = 2.6;
-        info_.elec_enconomy_kW100km = 13.2;
+        info_.acceleration_100km_sec = 2.6f;
+        info_.elec_enconomy_kW100km = 13.2f;
     }
 
     void Crash() override
@@ -80,8 +80,8 @@ class BYD : public Car
         info_.mileage_km = 635;
         info_.max_torque_Nm = 675;
         info_.max_speed_kmph = 180;
-        info_.acceleration_100km_sec = 4.4;
-        info_.elec_enconomy_kW100km = 17.6;
+        info_.acceleration_100km_sec = 4.4f;
+        info_.elec_enconomy_kW100km = 17.6f;
 
         crash_result_ = attack_result;
     }

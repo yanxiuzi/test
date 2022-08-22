@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include "design_pattern.h"
 
 struct MemBlock
@@ -26,7 +26,7 @@ class Buffer : public MemBlock
 };
 
 
-int main(int argc, char** argv)
+int main_1(int argc, char** argv)
 {
     const int pool_size = 1024;
 
@@ -35,5 +35,5 @@ int main(int argc, char** argv)
 
     auto a = buffer_pool.get();
     a->reset();
-    
+    return 0;
 }
